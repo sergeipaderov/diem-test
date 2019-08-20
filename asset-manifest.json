@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/diem/static/css/main.06de1dd2.chunk.css",
+    "main.js": "/diem/static/js/main.3b68c614.chunk.js",
+    "main.js.map": "/diem/static/js/main.3b68c614.chunk.js.map",
+    "runtime~main.js": "/diem/static/js/runtime~main.7145cf2b.js",
+    "runtime~main.js.map": "/diem/static/js/runtime~main.7145cf2b.js.map",
+    "static/js/2.94f4e4d5.chunk.js": "/diem/static/js/2.94f4e4d5.chunk.js",
+    "static/js/2.94f4e4d5.chunk.js.map": "/diem/static/js/2.94f4e4d5.chunk.js.map",
+    "index.html": "/diem/index.html",
+    "precache-manifest.16d8bf17b57468302928d0b6871d953c.js": "/diem/precache-manifest.16d8bf17b57468302928d0b6871d953c.js",
+    "service-worker.js": "/diem/service-worker.js",
+    "static/css/main.06de1dd2.chunk.css.map": "/diem/static/css/main.06de1dd2.chunk.css.map",
+    "static/media/baseline-archive-24px.d6081682.svg": "/diem/static/media/baseline-archive-24px.d6081682.svg",
+    "static/media/baseline-dehaze-24px.5c33ae76.svg": "/diem/static/media/baseline-dehaze-24px.5c33ae76.svg",
+    "static/media/baseline-delete-24px.d36bd4a7.svg": "/diem/static/media/baseline-delete-24px.d36bd4a7.svg",
+    "static/media/baseline-expand_less-24px.8f39a211.svg": "/diem/static/media/baseline-expand_less-24px.8f39a211.svg",
+    "static/media/baseline-expand_more-24px.bb158ab6.svg": "/diem/static/media/baseline-expand_more-24px.bb158ab6.svg",
+    "static/media/baseline-lens-24px.b9204e2e.svg": "/diem/static/media/baseline-lens-24px.b9204e2e.svg",
+    "static/media/baseline-location_on-24px.e27192cb.svg": "/diem/static/media/baseline-location_on-24px.e27192cb.svg",
+    "static/media/baseline-mail_outline-24px.4dc7a8cc.svg": "/diem/static/media/baseline-mail_outline-24px.4dc7a8cc.svg",
+    "static/media/baseline-notifications_none-24px.3d195e25.svg": "/diem/static/media/baseline-notifications_none-24px.3d195e25.svg",
+    "static/media/baseline-phone-24px.ff078fac.svg": "/diem/static/media/baseline-phone-24px.ff078fac.svg",
+    "static/media/baseline-search-24px.a87eca9e.svg": "/diem/static/media/baseline-search-24px.a87eca9e.svg",
+    "static/media/baseline-send-24px.5be1f331.svg": "/diem/static/media/baseline-send-24px.5be1f331.svg",
+    "static/media/map.png": "/diem/static/media/map.4044d87f.png",
+    "static/media/nurse.png": "/diem/static/media/nurse.096a7fd0.png",
+    "static/media/outline-watch_later-24px.d0b509e7.svg": "/diem/static/media/outline-watch_later-24px.d0b509e7.svg"
+  }
+}
