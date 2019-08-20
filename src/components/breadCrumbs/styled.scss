@@ -1,0 +1,16 @@
+.breadcrumbs {
+  display: flex;
+  flex-direction: row;
+
+  span {
+    padding-right: 6px;
+    cursor: pointer;
+    font-size: 21px;
+    color: #9e9e9e;
+    text-transform: capitalize;
+  }
+
+  :last-child {
+    color: #616161;
+  }
+}

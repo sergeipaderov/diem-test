@@ -1,0 +1,141 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+
+  .tabs {
+    width: 67%;
+    align-self: flex-end;
+    padding: 20px 0;
+  }
+
+  .outer-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .container {
+    padding: 20px;
+
+    &-left {
+      width: 33%;
+      padding: 10px;
+
+      .userphoto-container {
+        position: relative;
+        outline-width: 100%;
+        display: flex;
+        justify-content: center;
+
+        .user-photo {
+          position: absolute;
+          top: -90px;
+        }
+      }
+
+      .specialization-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 80px;
+        padding: 0 30px 10px;
+        overflow: hidden;
+
+
+        .name-wrapper {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 20px;
+
+          span {
+            text-transform: capitalize;
+            font-size: 26px;
+            color: #616161;
+          }
+        }
+
+        .prof-container {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          margin-bottom: 40px;
+
+          .specialization-image {
+            width: 64px;
+            height: 70px;
+          }
+
+          .spec-wrapper {
+            padding-left: 20px;
+            height: 70px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+          }
+        }
+      }
+
+      .info-title {
+        padding: 5px;
+
+        span {
+          font-size: 20px;
+          text-transform: capitalize;
+          color: #9E9E9E;
+        }
+      }
+
+      .alert-items {
+        padding: 5px;
+
+        .alert-item {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+
+          &:first-child {
+            margin-bottom: 5px;
+          }
+
+          .itemmark-wrapper {
+            align-items: center;
+            display: flex;
+            fill: #ff4e25;
+            margin-right: 5px;
+            height: 10px;
+            width: 10px;
+          }
+
+          .alert-text {
+            color: #616161;
+            margin-right: 5px;
+            overflow: hidden;
+            white-space: nowrap;
+          }
+
+          .alert-date {
+            color: #ff4e25;
+            font-weight: 600;
+            font-size: 15px;
+            letter-spacing: 1px;
+          }
+        }
+      }
+
+      .map-wrapper {
+        display: flex;
+        padding-top: 10px;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    &-right {
+      width: 67%;
+      padding: 10px;
+    }
+  }
+}

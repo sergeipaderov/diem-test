@@ -1,0 +1,16 @@
+.spec-info {
+  padding: 4px 15px;
+  border-radius: 50px;
+  background-color: #99d0df;
+  margin-right: 10px;
+  display: flex;
+  flex-basis: content;
+
+  span {
+    color: #e9fbfe;
+    font-size: 12px;
+    text-transform: capitalize;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+}

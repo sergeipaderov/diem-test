@@ -1,0 +1,28 @@
+.user-info-block {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+
+  .photo-container {
+    display: flex;
+    padding: 0 5px;
+    align-content: center;
+  }
+
+  span {
+    text-transform: capitalize;
+    margin: auto 0;
+    padding: 0 5px;
+    color: #616161;
+    font-size: 18px;
+  }
+
+  .arrow-icon {
+    display: flex;
+    align-items: center;
+
+    .arrow-icon {
+      fill: #616161;
+    }
+  }
+}

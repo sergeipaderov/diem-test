@@ -2,7 +2,12 @@
   "name": "diem_health",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sergeipaderov.github.io/diem",
   "dependencies": {
+    "@material-ui/core": "^4.3.2",
+    "gh-pages": "^2.1.1",
+    "node-sass": "^4.12.0",
+    "pages": "^0.0.16",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1"
@@ -11,7 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
